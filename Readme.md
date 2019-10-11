@@ -1,5 +1,4 @@
 # Docker PHP-FPM 7.3 and Nginx on Ubuntu 16.04
-===============================================
 
 My personal PHP 7.3 image for laravel and PHP projects. See the docker file for more info.
 
