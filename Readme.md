@@ -8,7 +8,7 @@ Clone Repository:
 
 	git clone https://github.com/bebasinwae/nginx-php-fpm.git
 
-Build The Docker contaimer:
+Build The Docker container:
 
 	cd nginx-php-fpm
 	docker build -t nginx-php73 .
