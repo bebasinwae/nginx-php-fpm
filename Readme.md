@@ -6,11 +6,11 @@ My personal PHP 7.3 image for laravel and PHP projects. See the docker file for 
 
 Clone Repository:
 
-	git clone 
+	git clone https://github.com/bebasinwae/nginx-php-fpm.git
 
 Build The Docker camtaimer:
 
-	cd docker-nginx-php73
+	cd nginx-php-fpm
 	docker build -t nginx-php73 .
 
 Start the Docker container:
