@@ -31,7 +31,7 @@ RUN apt-get remove -y --purge software-properties-common \
 RUN ln -sf /dev/stdout /var/log/nginx/docker.access.log \
     && ln -sf /dev/stderr /var/log/nginx/docker.error.log
 
-COPY cms-aiqqon-v2/ /var/www/html/
+COPY mycode-base/ /var/www/html/
 
 COPY default /etc/nginx/sites-available/default
 
